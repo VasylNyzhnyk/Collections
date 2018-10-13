@@ -7,6 +7,8 @@ public class IncrementalCollectionDemo {
         IncrementalCollection incrementalCollection = new IncrementalCollection();
         List<Integer> arrayList = new ArrayList<>();
         incrementalCollection.addElement(arrayList);
+        System.out.println(arrayList);
+
 
     }
 }

@@ -8,6 +8,7 @@ public  class IncrementalCollection {
             // list.add(i, new Object());
             list.add(5);
             list.add(51);
+            System.out.println(list);
 
         }
 
