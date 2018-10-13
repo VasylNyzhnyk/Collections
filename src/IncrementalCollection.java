@@ -1,4 +1,5 @@
 
+import java.util.ArrayList;
 import java.util.List;
 
 /*Задание 1
@@ -16,6 +17,7 @@ import java.util.List;
 Недопустим ввод в коллекцию null, символов и других значений, кроме целых чисел.
 */
 public  class IncrementalCollection {
+
    public static void addElement(List list){
         for (int i = 0; i < list.size(); i++) {
             list.add(i, new Object());

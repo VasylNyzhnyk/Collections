@@ -11,8 +11,6 @@ public class IncrementalCollectionDemo {
         incrementalCollection.getElement(arrayList);
         incrementalCollection.setElement(arrayList);
 
-        arrayList.add(2);
-
 
         System.out.println(arrayList);
 
